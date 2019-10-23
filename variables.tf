@@ -24,6 +24,6 @@ variable "port_count" {
 }
 
 variable "domain_count" {
-  description = "Domain retransmission rule count of the instance. At least 50. Increase 5 per step, such as 55, 60, 65."
+  description = "Domain retransmission rule count of the instance. At least 50. Increase 10 per step, such as 50, 60, 70."
   default     = 50
 }
