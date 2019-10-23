@@ -25,3 +25,7 @@ output "this_port_count" {
 output "this_domain_count" {
   value = alicloud_ddoscoo_instance.instance.*.domain_count
 }
+
+output "this_period" {
+  value = alicloud_ddoscoo_instance.instance.*.period
+}

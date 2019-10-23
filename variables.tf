@@ -27,3 +27,8 @@ variable "domain_count" {
   description = "Domain retransmission rule count of the instance. At least 50. Increase 10 per step, such as 50, 60, 70."
   default     = 50
 }
+
+variable "period" {
+  description = "The duration that you will buy Ddoscoo instance (in month). Valid values: [1~9], 12, 24, 36. Default to 1."
+  default     = 1
+}
